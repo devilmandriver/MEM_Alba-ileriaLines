@@ -16,7 +16,6 @@ using System.Collections.ObjectModel;
 using System.Runtime.Remoting.Contexts;
 using System.Drawing.Text;
 using System.Security.Cryptography.X509Certificates;
-using MEM_AlbañileriaLines.Properties;
 using System.IO;
 using static System.Net.WebRequestMethods;
 using System.Xml.Linq;

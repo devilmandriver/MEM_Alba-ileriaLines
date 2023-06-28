@@ -63,17 +63,17 @@ namespace MEM_AlbañileriaLines
 
 
 
-            System.Drawing.Image img = MEM_AlbañileriaLines.Properties.Resources.Ladrillo100x100;
+            System.Drawing.Image img = MEM_AlbañileriaLines.Propierties.Resources.Ladrillo100x100;
             BitmapSource imgSrc = GetImageSource(img);
 
-            string label = "Memoría de Albañilería";
+            string label = "Memoría de Albañilería Lineas";
             string description = "Creación de memoria de Albañilería en vista de diseño usando " +
                 "los materiales de los muros. Para ello generará lo patrones de relleno que sean " +
                 "necesarios para la representación de los muros en vista de sección. El color de los patrones de " +
                 "relleno dependerá de los colores asignados a los materiales.";
 
             //Creo los datos del boton 
-            PushButtonData botonDatosModeladoGeneral = new PushButtonData("internalButtonMEM_AlbañileriaDiseño", label, Assembly.GetExecutingAssembly().Location, "MEM_AlbañileriaLines.Class1");
+            PushButtonData botonDatosModeladoGeneral = new PushButtonData("internalButtonMEM_AlbañileriaLines", label, Assembly.GetExecutingAssembly().Location, "MEM_AlbañileriaLines.Class1");
 
             botonDatosModeladoGeneral.LargeImage = imgSrc;
 
