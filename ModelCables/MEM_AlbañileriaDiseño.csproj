@@ -7,8 +7,8 @@
     <ProjectGuid>{42EBB0C9-CB95-4469-9980-B9DB04CF356E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MEM_AlbañileriaLines</RootNamespace>
-    <AssemblyName>MEM_AlbañileriaLines</AssemblyName>
+    <RootNamespace>MEM_AlbañileriaDiseño</RootNamespace>
+    <AssemblyName>MEM_AlbañileriaDiseño</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -89,11 +89,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaInicial.resx">
       <DependentUpon>VentanaInicial.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Manifiesto\MEM_AlbañileriaLines.addin" />
+    <None Include="Manifiesto\MEM_AlbañileriaDiseño.addin" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Ladrillo100x100.png" />
