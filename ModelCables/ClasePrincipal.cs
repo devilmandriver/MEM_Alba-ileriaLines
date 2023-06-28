@@ -64,6 +64,7 @@ namespace MEM_AlbañileriaLines
 
 
             System.Drawing.Image img = MEM_AlbañileriaLines.Propierties.Resources.Ladrillo100x100;
+
             BitmapSource imgSrc = GetImageSource(img);
 
             string label = "Memoría de Albañilería Lineas";
@@ -74,6 +75,7 @@ namespace MEM_AlbañileriaLines
 
             //Creo los datos del boton 
             PushButtonData botonDatosModeladoGeneral = new PushButtonData("internalButtonMEM_AlbañileriaLines", label, Assembly.GetExecutingAssembly().Location, "MEM_AlbañileriaLines.Class1");
+
 
             botonDatosModeladoGeneral.LargeImage = imgSrc;
 

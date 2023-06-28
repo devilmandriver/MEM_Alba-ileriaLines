@@ -15,7 +15,8 @@ using System.Windows.Media;
 using System.Collections.ObjectModel;
 using System.Runtime.Remoting.Contexts;
 using System.Drawing.Text;
-using System.Security.Cryptography.X509Certificates;
+
+//using MEM_AlbañileriaLines.Properties;
 using System.IO;
 using static System.Net.WebRequestMethods;
 using System.Xml.Linq;
@@ -97,6 +98,7 @@ namespace MEM_AlbañileriaLines
                     tipoM.funcion = wall.get_Parameter(BuiltInParameter.FUNCTION_PARAM).AsValueString();
                     tipoM.anchuraTipo = wall.get_Parameter(BuiltInParameter.WALL_ATTR_WIDTH_PARAM).AsDouble();
                     tipoM.idTipo = wall.Id;
+
 
 
 
@@ -240,15 +242,9 @@ namespace MEM_AlbañileriaLines
 
             }
 
-            #region RELLENO EL DATAGRID
-            foreach (TipoMuro tm in tipos)
-            {
-                dataGridView1.Rows.Add(true,tm.nombreTipo);
-            }
-
-
-            #endregion
         }
+
+    
 
 
 
@@ -631,4 +627,5 @@ namespace MEM_AlbañileriaLines
 
     }
   
+
 }

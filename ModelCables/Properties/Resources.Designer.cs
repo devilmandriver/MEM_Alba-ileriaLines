@@ -7,8 +7,9 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace MEM_AlbañileriaLines.Propierties
-{
+
+namespace MEM_AlbañileriaLines.Propierties {
+
     using System;
 
 
@@ -38,12 +39,10 @@ namespace MEM_AlbañileriaLines.Propierties
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if (object.ReferenceEquals(resourceMan, null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
+
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MEM_AlbañileriaLines.Properties.Resources", typeof(Resources).Assembly);
 
                     resourceMan = temp;
@@ -72,122 +71,106 @@ namespace MEM_AlbañileriaLines.Propierties
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BasicWall
-        {
-            get
-            {
+
+        internal static System.Drawing.Bitmap BasicWall {
+            get {
                 object obj = ResourceManager.GetObject("BasicWall", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BasicWallDistanceBtext
-        {
-            get
-            {
+        internal static System.Drawing.Bitmap BasicWallDistanceBtext {
+            get {
                 object obj = ResourceManager.GetObject("BasicWallDistanceBtext", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BasicWallInitial_text_Dist
-        {
-            get
-            {
+        internal static System.Drawing.Bitmap BasicWallInitial_text_Dist {
+            get {
                 object obj = ResourceManager.GetObject("BasicWallInitial_text_Dist", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BasicWallNC_Distance
-        {
-            get
-            {
+        internal static System.Drawing.Bitmap BasicWallNC_Distance {
+            get {
                 object obj = ResourceManager.GetObject("BasicWallNC_Distance", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BasicWallNC_Heigthg
-        {
-            get
-            {
+        internal static System.Drawing.Bitmap BasicWallNC_Heigthg {
+            get {
                 object obj = ResourceManager.GetObject("BasicWallNC_Heigthg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BasicWallNC_Offset
-        {
-            get
-            {
+        internal static System.Drawing.Bitmap BasicWallNC_Offset {
+            get {
                 object obj = ResourceManager.GetObject("BasicWallNC_Offset", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ladrillo100x100
-        {
-            get
-            {
+
+        internal static System.Drawing.Bitmap Ladrillo100x100 {
+            get {
                 object obj = ResourceManager.GetObject("Ladrillo100x100", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
 
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Multi_Line
-        {
-            get
-            {
+        internal static System.Drawing.Bitmap Multi_Line {
+            get {
                 object obj = ResourceManager.GetObject("Multi_Line", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap One_Line
-        {
-            get
-            {
+        internal static System.Drawing.Bitmap One_Line {
+            get {
                 object obj = ResourceManager.GetObject("One_Line", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rac_basic_sample_project_Modif2
-        {
-            get
-            {
+        internal static System.Drawing.Bitmap rac_basic_sample_project_Modif2 {
+            get {
                 object obj = ResourceManager.GetObject("rac_basic_sample_project_Modif2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
     }
 }
 
